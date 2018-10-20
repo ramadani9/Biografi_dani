@@ -24,7 +24,7 @@ background-color:  #e9ebee;
     width: 800px;
     height: 350px;
     position: relative;
-    left: 20%;
+    left: 10%;
 }
 
 #profile
@@ -72,7 +72,7 @@ ul li
     width: 300px;
     height: auto;
     position: relative;
-    left: 20%;
+    left: 10%;
 }
 
 #biography
@@ -160,7 +160,7 @@ iframe
     height: auto;
     margin-left: 5px;
     position: relative;
-    left: 20%;
+    left: 10%;
     /* overflow-y: auto; */
 }
 
@@ -193,3 +193,42 @@ iframe
     height: auto;
 }
 /* content akhir*/
+
+@media (min-width: 992px) { 
+
+    .wall
+    {
+        border: 1px solid rgba(146, 136, 136, 0.3);
+        border-radius: 5px;
+        background-color: #fff;
+        width: 800px;
+        height: 350px;
+        position: relative;
+        left: 20%;
+    }
+
+    .sidebar
+{
+    /* border: 1px solid rgba(146, 136, 136, 0.3); */
+    float: left;
+    margin-top: 5px;
+    width: 300px;
+    height: auto;
+    position: relative;
+    left: 20%;
+}
+
+.content
+{
+    /* border: 1px solid rgba(146, 136, 136, 0.3); */
+    margin-top: 5px;
+    float: left;
+    width: 493px;
+    height: auto;
+    margin-left: 5px;
+    position: relative;
+    left: 20%;
+    /* overflow-y: auto; */
+}
+
+}
