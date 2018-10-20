@@ -164,6 +164,10 @@ iframe
     /* overflow-y: auto; */
 }
 
+textarea{
+    width: 490px;
+}
+
 #caption
 {
     border: 1px solid rgba(146, 136, 136, 0.3);
