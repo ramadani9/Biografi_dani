@@ -40,12 +40,12 @@ background-color:  #e9ebee;
     left: 25px;
 }
 
-ul
+.wall ul
 {
 float: right;
 }
 
-ul li
+.wall ul li
 {
     list-style: none;
     display: inline;
@@ -103,6 +103,10 @@ a
 a:hover
 {
     color: rgb(58, 126, 172);
+}
+
+a:active{
+    color: rgb(6, 152, 250);
 }
 
 #photo
@@ -167,6 +171,13 @@ iframe
     /* overflow-y: auto; */
 }
 
+
+.content iframe{
+    border: none;
+    width:410px; 
+    height:auto;
+}
+
 textarea{
     width: 410px;
 }
@@ -207,6 +218,34 @@ textarea{
 /* content akhir*/
 
 /* footer */
+
+.footer{
+    border: 1px solid rgba(146, 136, 136, 0.3);
+    border-radius: 5px;
+    margin-top: 1250px;
+    margin-bottom: 3px; 
+    margin-left:5px; 
+    /* padding-left: 5px; */
+    width: 95%;
+    position: relative;
+    /* left: 20%; */
+}
+
+.footer ul
+{
+    float: right;
+    margin-top: -50px;
+    /* margin-right: 30px; */
+    /* border: 1px solid; */
+}
+.footer ul li{
+    border: 1px solid black;
+    border-radius: 50px;
+    display: inline;
+    list-style: none;
+    margin-right: 30px;
+    padding: 10px;
+}
 
 
 
@@ -259,11 +298,11 @@ textarea{
         left: 25px;
     }
 
-    ul{
+   .wall ul{
     float: right;
     }
 
-    ul li{
+   .wall ul li{
     list-style: none;
     display: inline;
     padding: 15px;
@@ -316,9 +355,42 @@ textarea{
     height: auto;
     }
 
+    .content iframe{
+        border: none;
+        width:490px; 
+        height:auto;
+    }
+
     textarea{
         width: 490px;
     }
 
+    .footer{
+        border: 1px solid rgba(146, 136, 136, 0.3);
+        border-radius: 5px;
+        margin-top: 1415px;
+        margin-bottom: 3px; 
+        /* padding-left: 5px; */
+        width: 59%;
+        position: relative;
+        left: 20%;
+    }
+    
+    
+    .footer ul
+    {
+        float: right;
+        margin-top: -50px;
+        /* margin-right: 30px; */
+        /* border: 1px solid; */
+    }
+    .footer ul li{
+        border: 1px solid black;
+        /* border-radius: 50px; */
+        display: inline;
+        list-style: none;
+        margin-right: 30px;
+        /* padding: 10px; */
+    }
 
 }
